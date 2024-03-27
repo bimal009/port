@@ -1,11 +1,15 @@
 @media only screen and (max-width:1200px) {
     * {
-        background-color: white;
-        justify-content: center;
+
+
         margin: 0%;
         padding: 0%;
 
 
+    }
+
+    body {
+        background-color: white;
     }
 
     .holder {
@@ -39,6 +43,27 @@
     .left-holder img {
         height: 10rem;
         width: auto;
+
+    }
+
+    .right-holder {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .info-tops {
+        justify-content: center;
+        align-items: center;
+        text-wrap: initial;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .mobile-header {
+        display: block;
 
     }
 
