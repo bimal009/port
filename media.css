@@ -2,7 +2,8 @@
     * {
         background-color: white;
         justify-content: center;
-        height: 100%;
+        margin: 0%;
+        padding: 0%;
 
 
     }
@@ -13,10 +14,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -75rem;
-        width: 100%;
+
+        /* width: 100%; */
         box-shadow: none;
-        background-color: none;
+        background-color: white;
+
+
 
 
 
@@ -31,12 +34,7 @@
         display: none;
     }
 
-    .icon i {
-        height: 1rem;
-        width: auto;
-        /* padding: 0rem 0.5rem; */
 
-    }
 
     .left-holder img {
         height: 10rem;
