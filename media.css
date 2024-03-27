@@ -1,20 +1,47 @@
 @media only screen and (max-width:1200px) {
     * {
-        /* background-color: aquamarine; */
+        background-color: white;
         justify-content: center;
         height: 100%;
+
+
     }
 
     .holder {
         padding: none;
         margin: none;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: -75rem;
+        width: 100%;
+        box-shadow: none;
+        background-color: none;
+
+
+
     }
 
     .info-bottoms {
         /* flex-direction: row; */
         align-items: start;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .icon i {
+        height: 1rem;
+        width: auto;
+        /* padding: 0rem 0.5rem; */
+
+    }
+
+    .left-holder img {
+        height: 10rem;
+        width: auto;
+
     }
 
 }
