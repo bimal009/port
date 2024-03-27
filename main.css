@@ -126,10 +126,14 @@ body {
 }
 
 .mobile-header {
+    background-color: aliceblue;
     display: none;
 }
 
-
 .social-medias {
     gap: 5rem;
+}
+
+.navbar {
+    background-color: aliceblue;
 }
