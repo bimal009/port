@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    padding: 0 10rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.fonth3 {
+    font-size: small;
+
+}
+
+.fonth2 {
+    font-size: small;
+}
