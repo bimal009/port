@@ -21,7 +21,7 @@ body {
 } */
 
 
-.navbar {
+.desktop-navbar {
     display: flex;
     height: 3rem;
     /* background-color: aqua; */
@@ -121,9 +121,14 @@ body {
 
 }
 
+.navbar-toggler {
+    display: none;
+}
+
 .mobile-header {
     display: none;
 }
+
 
 .social-medias {
     gap: 5rem;
